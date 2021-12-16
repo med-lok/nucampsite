@@ -57,7 +57,7 @@
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Discover & Review</h2>
             </div>
-            <div class="col">
+            <div>
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg" alt="Breadcrumb Trail" />
                     <div class="media-body align-self-center">
@@ -72,7 +72,7 @@
             <div class="col-sm-4 col-md-3">
                 <h2>Featured Campsites</h2>
             </div>
-            <div class="col">
+            <div>
                 <div class="media">
                     <div class="media-body align-self-center">
                         <h3>React Lake Campground</h3>
@@ -87,7 +87,7 @@
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Our Community Partners</h2>
             </div>
-            <div class="col">
+            <div>
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
                     <div class="media-body align-self-center">
@@ -106,8 +106,8 @@
                     <div class="card-body">
                         <form id="reserveForm">
                             <div class="form-group row">
-                                <label class="col-sm-6 col-form-label">Number of Campers</label>
-                                <div class="col col-sm-6">
+                                <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
+                                <div class="col-sm-6">
                                     <select name="numCampers" id="numCampers" class="form-control">
                                         <option>Select...</option>
                                         <option value="1">1</option>
@@ -120,9 +120,9 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-6 col-form-label">Date</label>
-                                <div class="col col-sm-6">
-                                    <input type="date" class="form-control" name="date" value="date" placeholder="Date">
+                                <label for="date" class="col-sm-6 col-form-label">Date</label>
+                                <div class="col-sm-6">
+                                    <input type="date" class="form-control" name="date" id="date" value="date" placeholder="Date">
                                 </div>
                             </div>
                             <div class="form-group row">
